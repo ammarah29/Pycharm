@@ -1,0 +1,38 @@
+##### README #####
+In order to run this automation pack, you will need to do the following:
+
+1) Install Python 2.7
+   Download from https://www.python.org/downloads/
+
+2) Install Lettuce
+   Once Python has been installed, using Command Prompt (PC) / Terminal (Mac), navigate to your Python directory
+   e.g. 'cd /Library/Frameworks/Python.framework/Versions/2.7'
+
+   Run the following command:
+   For PC: 'pip install lettuce'
+   For Mac: 'sudo pip install lettuce'
+
+   -- Note --
+   If you receive any errors relating to 'pip', you may have to install pip by doing the following:
+   Download get-pip.py from https://bootstrap.pypa.io/get-pip.py
+   Place the file inside your Python directory e.g. /Library/Frameworks/Python.framework/Versions/2.7/
+   Run the command 'python get-pip.py'
+
+3) Install Selenium
+   Navigate to your Python directory in Command Prompt / Terminal (see task 2)
+   Run the following command:
+   For PC: 'pip install selenium'
+   For Mac: 'sudo pip install selenium'
+
+4) Run a feature file
+   In order to run a feature file, navigate to your Python directory in Command Prompt / Terminal (see task 2)
+   Run the command 'lettuce [insert path to feature file]'
+   e.g. for a particular feature file
+   'lettuce /Users/ammarahahmad/PycharmProjects/asos/features/taskone.feature'
+
+   Run the following in the file path:
+
+   lettuce taskone.feature
+   lettuce tasktwo.feature
+   lettuce taskthree.feature
+   lettuce taskfour.feature
