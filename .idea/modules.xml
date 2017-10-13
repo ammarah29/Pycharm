@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/PycharmProjects/asos/.idea/qumu.iml" filepath="$USER_HOME$/PycharmProjects/asos/.idea/qumu.iml" />
-      <module fileurl="file://$USER_HOME$/PycharmProjects/untitled/.idea/untitled.iml" filepath="$USER_HOME$/PycharmProjects/untitled/.idea/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/asos.iml" filepath="$PROJECT_DIR$/.idea/asos.iml" />
     </modules>
   </component>
 </project>
